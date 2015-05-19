@@ -18,7 +18,7 @@ public class E4_2 {
 		int temp = 0;
 		for(int i = 0; i<p.length;i++){
 			temp += p[i];
-			while(temp>n){
+			if(temp>n){
 				s++;
 				temp = 0;
 				i--;

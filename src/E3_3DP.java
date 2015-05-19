@@ -40,7 +40,7 @@ public class E3_3DP {
 		for(int i = 1;i<=n;i++){
 			m[i][1] = w[1][i];
 		}
-		
+		//ºËÐÄË¼Â·
 		for(int i = 1;i<=n;i++){
 			for(int j=2;j<=k;j++){
 				int max  = 0;      

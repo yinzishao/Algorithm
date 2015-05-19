@@ -30,7 +30,7 @@ public class E3_2  {
 		return arr;
 	}
 
-	private static int[] merge_and_count(int[] a, int[] b) {
+	private static int[] merge_and_count(int[] a, int[] b) {      //归并排序并统计
 		int i = 0;
 		int j = 0;
 		int result[] = new int[a.length+b.length];
