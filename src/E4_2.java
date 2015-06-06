@@ -18,11 +18,11 @@ public class E4_2 {
 		int temp = 0;
 		for(int i = 0; i<p.length;i++){
 			temp += p[i];
-			if(temp>n){
-				s++;
-				temp = 0;
-				i--;
-			}
+			if(temp>n){			
+				s++;										//加油次数加一
+				temp = 0;									
+				i--;										//不能到，i减一，重新判断
+			}	
 			
 		}
 		System.out.println(s);
